@@ -1,0 +1,9 @@
+.ContainerList{
+    display: flex;
+    justify-content: end;
+    background-color: aqua;
+}
+.ContainerList li{
+    list-style: none;
+    width: 8%;
+}
