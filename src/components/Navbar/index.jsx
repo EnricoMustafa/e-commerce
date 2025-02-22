@@ -1,7 +1,8 @@
+import { Fragment } from 'react';
 import './Navbar.css'
 function Navbar(){
     return (
-        <>
+        <Fragment>
             
             <ul className="ContainerList">
                 <li>Produto</li>
@@ -9,7 +10,7 @@ function Navbar(){
                 <li>Login</li>
             </ul>
             
-        </>
+        </Fragment>
     )
 }
 
