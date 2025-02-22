@@ -1,15 +1,26 @@
-import './Navbar.css'
+import { Fragment } from 'react';
+import {
+ContainerNav,
+BoxElements,
+ContainerList,
+ListNav,
+} from '../Navbar/Navbar.styles'
 function Navbar(){
     return (
-        <>
-            
-            <ul className="ContainerList">
-                <li>Produto</li>
-                <li>Sobre nos</li>
-                <li>Login</li>
-            </ul>
-            
-        </>
+        <Fragment>
+            <ContainerNav>
+                <BoxElements>
+                    <h1>
+                        SurfShop
+                    </h1>
+                    <ContainerList>
+                        <ListNav>Produto</ListNav>
+                        <ListNav>Sobre nos</ListNav>
+                        <ListNav>Login</ListNav>
+                    </ContainerList>
+                </BoxElements>
+            </ContainerNav>
+        </Fragment>
     )
 }
 
