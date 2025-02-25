@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { 
     CarouselContainer, 
     ImageSlide,
@@ -10,11 +10,15 @@ function Carousel() {
   return (
     <Fragment>
       <CarouselContainer
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={10}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+        }}
         >
          <ImageSlide>Image 1</ImageSlide>   
          <ImageSlide>Image 2</ImageSlide>   
