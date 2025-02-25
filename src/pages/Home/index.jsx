@@ -1,11 +1,16 @@
+import { Fragment } from 'react';
 import Navbar from '../../components/Navbar';
-import './Home.css'
+import {
+
+} from '../Home/Home.Style'
+import Carousel from '../../components/Carousel'
 
 function Home(){
     return (
-        <div>
+        <Fragment>
             <Navbar/>
-        </div>
+            <Carousel/>
+        </Fragment>
     )
 }
 
