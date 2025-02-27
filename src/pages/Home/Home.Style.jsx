@@ -26,3 +26,11 @@ export const ImageSlide = styled(SwiperSlide)`
   background:#000;
   color: white;
 `;
+
+export const ProductsContainer = styled.div`
+   
+`;
+
+export const Cards = styled.div`
+
+`;
