@@ -5,7 +5,11 @@ import {
     CarouselContainer, 
     ImageSlide,
     ProductsContainer,
+    TitleSection,
     Cards,
+    CardImg,
+    CardTitle,
+    CardPrincing,
 } from '../Home/Home.Style'
 
 
@@ -19,17 +23,38 @@ function Home(){
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
         >
           <ImageSlide>Image 1</ImageSlide>
           <ImageSlide>Image 2</ImageSlide>
           <ImageSlide>Image 3</ImageSlide>
         </CarouselContainer>
+          <TitleSection>Produto</TitleSection>
         <ProductsContainer>
-            <Cards>Produto</Cards>
+          <Cards>
+            <CardImg/>
+            <CardTitle>Titulo produto 1</CardTitle>
+            <CardPrincing>
+              Preço
+            </CardPrincing>
+          </Cards>
+          <Cards>
+            <CardImg/>
+            <CardTitle>Titulo produto 2</CardTitle>
+            <CardPrincing>
+              Preço
+            </CardPrincing>
+          </Cards>
+          <Cards>
+          <CardImg/>
+            <CardTitle>Titulo produto 3</CardTitle>
+            <CardPrincing>
+              Preço
+            </CardPrincing>
+          </Cards>
         </ProductsContainer>
       </Fragment>
     );
