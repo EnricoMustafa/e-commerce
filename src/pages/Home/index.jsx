@@ -10,6 +10,8 @@ import {
     CardImg,
     CardTitle,
     CardPrincing,
+    ContainerBtn,
+    CardBtn,
 } from '../Home/Home.Style'
 
 
@@ -35,25 +37,34 @@ function Home(){
           <TitleSection>Produto</TitleSection>
         <ProductsContainer>
           <Cards>
-            <CardImg/>
+            <CardImg src='public/image.png'/>
             <CardTitle>Titulo produto 1</CardTitle>
+            <ContainerBtn>
             <CardPrincing>
-              Preço
+              R$1500,00
             </CardPrincing>
+            <CardBtn>Comprar</CardBtn>
+            </ContainerBtn>
           </Cards>
           <Cards>
-            <CardImg/>
-            <CardTitle>Titulo produto 2</CardTitle>
+            <CardImg src='public/image.png'/>
+            <CardTitle>Titulo produto 1</CardTitle>
+            <ContainerBtn>
             <CardPrincing>
-              Preço
+              R$1500,00
             </CardPrincing>
+            <CardBtn>Comprar</CardBtn>
+            </ContainerBtn>
           </Cards>
           <Cards>
-          <CardImg/>
-            <CardTitle>Titulo produto 3</CardTitle>
+            <CardImg src='public/image.png'/>
+            <CardTitle>Titulo produto 1</CardTitle>
+            <ContainerBtn>
             <CardPrincing>
-              Preço
+              R$1500,00
             </CardPrincing>
+            <CardBtn>Comprar</CardBtn>
+            </ContainerBtn>
           </Cards>
         </ProductsContainer>
       </Fragment>

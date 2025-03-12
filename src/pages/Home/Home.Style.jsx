@@ -40,30 +40,51 @@ export const ProductsContainer = styled.section`
 display:flex;
 justify-content: space-around;
 margin-top: 4%;
+flex-wrap: wrap;
 `;
 
 
 export const Cards = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 4px;
+height: 50%;
 border: 1px solid black;
-width: 20%;
-text-align: center;
+border-radius: 10px 10px 0px 0px;
 `;
 
-// Consertar a manipulação de imagem dos cards pois o tamanho da imagem esta maior e não ta responsivo
-export const CardImg = styled.div`
-background-image: url("image.png");
-height: 500px;
-
+export const CardImg = styled.img`
+border-radius: 10px 10px 0px 0px;
+height: 25rem;
 `;
 
 export const CardTitle = styled.p`
+width: 100%;
 text-align: start;
-font-size: 20px;
-padding: 10px;
+padding-left:20px;
 `;
 
 export const CardPrincing = styled.p`
 font-size: 20px;
 text-align: start;
 padding: 10px;
+`;
+
+export const ContainerBtn = styled.div`
+display: flex;
+justify-content: space-around;
+width: 100%;
+`;
+
+//colocar hover e dar mais vida para pagina 
+export const CardBtn = styled.button`
+background-color: #2192FF;
+height: 35px;
+border: solid #c0c0c0 1px;
+padding: 4px;
+width: 80px;
+color: #fff;
+cursor: pointer;
 `;

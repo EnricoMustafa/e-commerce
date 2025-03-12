@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+export const Title = styled.h1`
+color: black;
+`;
 export const ContainerNav = styled.div`
 padding: 1%;
 width: 100%;
