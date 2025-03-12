@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import {
+Title,
 ContainerNav,
 BoxElements,
 ContainerList,
@@ -10,9 +11,9 @@ function Navbar(){
         <Fragment>
             <ContainerNav>
                 <BoxElements>
-                    <h1>
+                    <Title>
                         SurfShop
-                    </h1>
+                    </Title>
                     <ContainerList>
                         <ListNav>Produto</ListNav>
                         <ListNav>Sobre nos</ListNav>
